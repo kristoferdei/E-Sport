@@ -7,7 +7,7 @@ import net.rithms.riot.constant.Platform;
 public class Main {
     public static void main(String[] args) throws RiotApiException {
 
-        ApiConfig config = new ApiConfig().setKey("RGAPI-58980dfc-1217-47a5-9b78-0bf798889504 ");
+        ApiConfig config = new ApiConfig().setKey("YOUR-API-KEY-HERE");
 
         RiotApi api = new RiotApi(config);
 
